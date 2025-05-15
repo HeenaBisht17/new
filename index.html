@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Women in Arts</title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h2>Women in Arts:</h2>
+        <br>
+
+        <h1>Where her spirit flows, art is born</h1>
+        <p class="section__description">
+            Women have long been the heart of artistic expression — from ancient traditions to contemporary movements.Today, women artists around the world continue to break boundaries, amplify diverse voices, and shape the cultural and emotional fabric of society.
+        </p>
+      </div>
+    </header>
+
+   
+
+    <section class="section__container about__container" id="about">
+      <h5 class="section__title">Face of Women in Arts</h5>
+      <div class="about__flex">
+        <div class="about__image">
+          <video src="Amrita.mp4" controls width="100%"></video>
+        </div>
+        <div class="about__content">
+          <p class="section__description">
+            Amrita Sher-Gil (1913–1941) was a pioneering Indian painter, known for blending Western techniques with Indian themes. She is regarded as a foundational figure in modern Indian art.Born in Budapest, Hungary, to an Indian father and Hungarian mother.
+
+            
+            
+            Returned to India in 1934 and was deeply inspired by rural Indian life and traditions.
+            <br /><br />
+            Her paintings often depicted the lives of Indian women, village scenes, and introspective portraits.Famous Works:
+            <span>
+                Three Girls, 
+
+                Bride’s Toilet,
+                
+                Self Portrait as a Tahitian ,
+                
+                Hill Women
+            </span>
+            <br><br>
+            One of the first female artists in India to gain international recognition.
+            Died young at 28, but left behind a powerful body of work that continues to inspire.
+          </p>
+          
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- <section class="service" id="service"> -->
+      <section class="service" id="hall-of-fame-section">
+
+      <div class="section__container service__container">
+        <h1 class="section__header" ><p style="text-align: center;">Other Iconic Women in Arts</p></h1>
+        <p class="section__description" style="text-align: center;">
+            Here’s a list of great artists from India across various art forms —
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <img src="geo.jpg" alt="Valentina Tereshkova" class="icon-image" />
+            <div>
+              <h4>Georgia O'Keeffe </h4>
+              <p>
+                An American modernist painter, O'Keeffe is best known for her large-scale depictions of flowers, bones, and landscapes. Her work had a major impact on American art and is celebrated for its innovative use of abstraction and its influence on feminist art movements.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="maya.jpg" alt="Sunita Williams" class="icon-image" />
+            <div>
+              <h4>Maya Angelou  </h4>
+              <p>An American poet, memoirist, and civil rights activist, Maya Angelou is best known for her autobiographies, especially I Know Why the Caged Bird Sings. Her powerful writing and activism made her one of the most respected literary figures in the U.S.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="shobha.jpg" alt="Ritu Karidhal" class="icon-image" />
+            <div>
+              <h4>Shobha De </h4>
+              <p>
+                A prominent Indian author and columnist, Shobha De’s novels focus on the complex lives of urban women. She is known for books like Socialite Evenings and The Starry Nights, which explore the dynamics of modern Indian society and the role of women.
+                
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="anjolie.jpg" alt="Ritu Karidhal" class="icon-image" />
+            <div>
+              <h4>Anjolie Ela Menon</h4>
+              <p>
+                One of India’s most prominent contemporary artists, Anjolie Ela Menon’s works are celebrated for their portrayal of the human experience, particularly the emotional depth of women. 
+              </p>
+            </div>
+          </div>
+
+
+
+
+          
+
+
+
+        </div>
+      </div>
+    </section>
+<!-- 
+    <section class="section__container resume__container" id="resume"> -->
+      
+
+    <script>
+      document.getElementById("hall-of-fame").addEventListener("click", function () {
+        document.getElementById("hall-of-fame-section").scrollIntoView({ behavior: "smooth" });
+      });
+
+      document.getElementById("quotes").addEventListener("click", function () {
+        document.getElementById("quotes-section").scrollIntoView({ behavior: "smooth" });
+      });
+
+      document.querySelectorAll(".about__progressbar").forEach((bar) => {
+        const progress = bar.getAttribute("data-progress");
+        bar.querySelector("span").style.width = progress + "%";
+      });
+
+      document.getElementById("hall-of-fame").addEventListener("click", function () {
+  document.getElementById("hall-of-fame-section").scrollIntoView({ behavior: "smooth" });
+});
+
+document.getElementById("quotes").addEventListener("click", function () {
+  document.getElementById("quotes-section").scrollIntoView({ behavior: "smooth" });
+});
+
+    </script>
+  </body>
+</html>
